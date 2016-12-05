@@ -1,0 +1,99 @@
+html {
+	
+	margin:0;
+}
+
+body {
+	
+	margin:0px;
+	height:100%;
+}
+
+#back {
+	
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:-1;
+	top:0px;
+	opacity:1;
+}
+
+#startDiv {
+	
+	width:100%;
+	height:50%;
+	#background-color:blue;
+	margin-top:13%;
+}
+
+#pve {
+	
+	border:none;
+	font-size:500%;
+	margin-left:42%;
+	opacity:1;
+	color: white;
+	text-decoration:none;
+	font-family: 'Satisfy', cursive;
+}
+
+#pve:hover {
+	
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#pvp {
+	
+	border:none;
+	font-size:500%;
+	margin-left:40%;
+	opacity:1;
+	color: white;
+	text-decoration:none;
+	font-family: 'Satisfy', cursive;
+}
+
+#pvp:hover {
+	
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#board {
+	
+	width:40%;
+	height:78.7%;
+	margin-top:4%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#grid {
+	
+	width:39.75%;
+	height:78.2%;
+	margin-left:30.2%;
+	margin-top:0.3%;
+	position:absolute;
+	#background-color:#f4cb42;
+	opacity:1;
+}
+
+.cube {
+	
+	width:6.66%;
+	height:6.7%;
+	float:left;
+}
+
+.zi {
+	
+	width:80%;
+	height:80%;
+	margin:10%;
+	border-radius:50%;
+}
+
+
+
